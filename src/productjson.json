@@ -1,0 +1,47 @@
+[
+  {
+    "name": "big mac",
+    "price": 5,
+    "img": "https://img.taste.com.au/9alonoPN/taste/2019/06/big-mac-150974-1.jpg"
+  },
+  {
+    "name": "doner",
+    "price": 6,
+    "img": "https://thumbs.dreamstime.com/b/doner-kebab-10011784.jpg"
+  },
+  {
+    "name": "kebap",
+    "price": 15,
+    "img": "https://i4.hurimg.com/i/hurriyet/75/750x422/639b4d794e3fe029288f0f71.jpg"
+  },
+  {
+    "name": "ayran",
+    "price": 4,
+    "img": "https://www.shutterstock.com/image-photo/ayran-drink-mint-cucumber-glass-260nw-2149744017.jpg"
+  },
+  {
+    "name": "baklava",
+    "price": 10,
+    "img": "https://www.shutterstock.com/image-photo/baklava-pistachio-one-most-beautiful-260nw-1944285838.jpg"
+  },
+  {
+    "name": "tarhana",
+    "price": 7,
+    "img": "https://media.istockphoto.com/id/605989916/tr/foto%C4%9Fraf/turkish-traditional-tarhana-soup.jpg?s=1024x1024&w=is&k=20&c=uDxn2_R5knZFPQ5qTMfbZxdcgCDy6rr_iR0ZoL0oNo0="
+  },
+  {
+    "name": "kuru fasulye",
+    "price": 10,
+    "img": "https://i.lezzet.com.tr/images-xxlarge/kuru-fasulye-d36f8864-84aa-45b1-bc06-08d08d082044"
+  },
+  {
+    "name": "orman kebap",
+    "price": 15,
+    "img": "https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/b7e2ff02-6027-4114-9965-4b7aa890e519/Derivates/16db3779-38e6-410e-bcec-3e1b1b532528.jpg"
+  },
+  {
+    "name": "çay",
+    "price": 1,
+    "img": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/1474000/cay-istanbul-1475368.jpg"
+  }
+]

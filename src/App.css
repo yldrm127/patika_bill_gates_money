@@ -1,38 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .App {
   text-align: center;
+  position: relative;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header {
+  margin: 50px;
+  height: 100px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header span {
+  font-size: 20px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.productlist {
+  margin: 0 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.product {
+  background-color: #ecf0f1;
+  border-radius: 20px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 10px;
+  width: 400px;
+  height: 400px;
 }
-
-.App-link {
-  color: #61dafb;
+.product p {
+  font-size: 20px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+img {
+  width: 200px;
+  height: auto;
+  margin: 10px;
+}
+.process {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+}
+.process button {
+  padding: 20px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.process button:hover {
+  color: #ecf0f1;
+  background-color: #000;
+}
+.process span {
+  width: 25%;
+  border: 1px solid #000;
+}
+.basket {
+  position: absolute;
+  top: 10%;
+  left: 30%;
+  width: 500px;
+  height: 500px;
+  display: none;
+  background-color: #ffff;
+  border: 1px solid black;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.basket div {
+  margin: 10px;
+}
+.closeBasket {
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+.basketproduct {
+  display: flex;
+  justify-content: space-evenly;
+}
+.basket-icon {
+  position: absolute;
+  top: 0;
+  right: 5%;
+  width: 50px;
+  height: auto;
+  cursor: pointer;
+}
+.basket-no {
+  color: #000;
+  position: absolute;
+  font-size: 20px;
+  top: 40px;
+  background-color: #fff;
+  border-radius: 50%;
+  right: 5%;
+}
+@media screen and (max-width: 376px) {
+  .basket {
+    top: 100px;
+    left: 20px;
+    width: 300px;
+    height: auto;
   }
 }
